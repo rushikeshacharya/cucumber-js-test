@@ -20,6 +20,7 @@ Given("today is {string}", function (givenDay) {
 
 When("I ask whether it's Friday yet", function () {
   // Write code here that turns the phrase above into concrete actions
+
   this.actualAnswer = isItFriday(this.today);
   //   return "pending";
 });
